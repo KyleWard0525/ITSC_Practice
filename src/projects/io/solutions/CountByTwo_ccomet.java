@@ -1,3 +1,5 @@
+package projects.io;
+
 public class CountByTwo {
 
     public static void main(String[] args) {
