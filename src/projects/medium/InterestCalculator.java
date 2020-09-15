@@ -44,7 +44,7 @@ public class InterestCalculator {
      * @param comp - number of times compounded per year
      * @return - client's total balance
      */
-    public float calculateInterest(int amount, float rate, int comp)
+    public static float calculateInterest(int amount, float rate, int comp)
     {
         float finalAmount = 0;
         
@@ -62,7 +62,7 @@ public class InterestCalculator {
      * @param years - number of years the deposit will be invested
      * @return - client's total balance
      */
-    public float calcInterestYears(int years)
+    public static float calcInterestYears(int years)
     {
         float finalAmount = 0;
         
@@ -73,6 +73,15 @@ public class InterestCalculator {
         return finalAmount;
     }
     
-    
+    /**
+     * Main driver code
+     * @param args 
+     */
+    public static void main(String[] args) {
+        int numYears = 50;
+        
+        System.out.println("Interest after 1 year: $" + calculateInterest(35000, 0.023f, 4));
+        System.out.println("Interest after " + numYears + ": $" + calcInterestYears(numYears));
+    }
     
 }
