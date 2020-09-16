@@ -1,6 +1,6 @@
-package projects.io;
+package projects.io.solutions;
 
-public class CountByTwo {
+public class CountByTwo_ccomet {
 
     public static void main(String[] args) {
         int min = 0;
