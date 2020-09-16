@@ -1,5 +1,6 @@
 package projects.hard;
 import java.lang.Math;
+import java.text.DecimalFormat;
 /**
  * 
  * A man was standing at a point 250m away
@@ -19,6 +20,7 @@ public class TrigHeight {
     private final int theta1 = 24;
     private final int distance2 = 200;
     private final int theta2 = 46;
+    private static DecimalFormat df = new DecimalFormat("##.######");
     
     /**
      * Compute height of the building
@@ -35,12 +37,23 @@ public class TrigHeight {
     {
         double height = 0;
         
+        //Your solution here
         
         return height;
     }
     
     public static void main(String[] args) {
         System.out.println("Height = " + computeHeight() + "m");
+        System.out.println("Solved = " + solved(computeHeight()));
+    }
+    
+    public static boolean solved(double height)
+    {
+        String form_height = df.format(height);
+        String form_ans = df.format(4613.10292);
+        System.out.println(form_height);
+        System.out.println(form_ans);
+        return form_height.equals(form_ans);
     }
     
 }
