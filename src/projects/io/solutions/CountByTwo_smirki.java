@@ -1,3 +1,4 @@
+/*
 package projects.io;
 
 public class CountByTwo {
@@ -13,3 +14,4 @@ public class CountByTwo {
     }
     
 }
+*/

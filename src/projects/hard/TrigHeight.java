@@ -16,11 +16,10 @@ import java.text.DecimalFormat;
  */
 public class TrigHeight {
     
-    private final int distance1 = 250;
-    private final int theta1 = 24;
-    private final int distance2 = 200;
-    private final int theta2 = 46;
-    private static DecimalFormat df = new DecimalFormat("##.######");
+    private static final int distance1 = 250;
+    private static final int theta1 = 24;
+    private static final int distance2 = 200;
+    private static final int theta2 = 46;
     
     /**
      * Compute height of the building
@@ -39,21 +38,12 @@ public class TrigHeight {
         
         //Your solution here
         
+        
         return height;
     }
     
     public static void main(String[] args) {
         System.out.println("Height = " + computeHeight() + "m");
-        System.out.println("Solved = " + solved(computeHeight()));
-    }
-    
-    public static boolean solved(double height)
-    {
-        String form_height = df.format(height);
-        String form_ans = df.format(4613.10292);
-        System.out.println(form_height);
-        System.out.println(form_ans);
-        return form_height.equals(form_ans);
     }
     
 }
