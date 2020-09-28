@@ -31,10 +31,6 @@ package projects.medium;
  */
 public class InterestCalculator {
     
-    private final int DEPOSIT = 100000;
-    private final float RATE = 0; // ERROR: This rate should be 4.8%
-    private final int N = 2;
-    
     /**
      * Find the client's return after 1 year given the 3
      * parameter
@@ -50,25 +46,24 @@ public class InterestCalculator {
         
         
         //Your solution here
-        
+        finalAmount = (float) (amount * Math.pow((1 + rate/comp), comp * 1));
         
         return finalAmount;
     }
     
     /**
-     * Calculate client's return given the global
-     * variables and years
+     * Calculate client's return given all variables
      * 
      * @param years - number of years the deposit will be invested
      * @return - client's total balance
      */
-    public static float calcInterestYears(int years)
+    public static float calcInterestYears(int p, float r, int n, int t)
     {
         float finalAmount = 0;
         
         
         //Your solution here
-        
+        finalAmount = finalAmount = (float) (p * Math.pow((1 + r/n), n * t));
         
         return finalAmount;
     }
@@ -78,10 +73,7 @@ public class InterestCalculator {
      * @param args 
      */
     public static void main(String[] args) {
-        int numYears = 50;
-        
-        System.out.println("Interest after 1 year: $" + calculateInterest(35000, 0.023f, 4));
-        System.out.println("Interest after " + numYears + ": $" + calcInterestYears(numYears));
+       
     }
     
 }
