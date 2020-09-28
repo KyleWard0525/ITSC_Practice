@@ -12,3 +12,4 @@ This repository is for ITSC-1212 students to practice java concepts via practice
 
 # Help
 - To test your code, right-click the file and select "Test File"
+- Note, not all problems have tests
