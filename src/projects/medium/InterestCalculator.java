@@ -21,12 +21,6 @@ package projects.medium;
  * n = # of times compounded per year
  * t = number of years
  * 
- * 
- * I've also included a skeleton method to calculate 
- * a client's interest using the global variables and
- * the number of years passed in. Give it a shot if you 
- * think you can!
- * 
  * @author kward60
  */
 public class InterestCalculator {
