@@ -14,9 +14,11 @@ package projects.io;
  */
 public class CountByTwo {
     
+    private final int min = 0;
+    private final int max = 100;
+    
     public static void main(String[] args) {
-        int min = 0;
-        int max = 100;
+        //Your solution here
     }
     
 }
