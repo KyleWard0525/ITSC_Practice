@@ -5,6 +5,8 @@
  */
 package projects.medium;
 
+import java.util.Arrays;
+
 /**
  * For this problem you are tasked with writing an algorithm
  * that will sort an array of integers in ascending order (0,1,2,3,...)
@@ -14,11 +16,14 @@ package projects.medium;
  */
 public class ArraySort {
     
-    public int[] sort(int[] arr)
+    public String sort(int[] arr)
     {
         //YOUR CODE HERE
         
-        return null;
+        
+        
+        
+        return Arrays.toString(arr);
     }
     
     
