@@ -8,3 +8,8 @@ This repository is for ITSC-1212 students to practice java concepts via practice
 - If you use somebody else's code, be sure to give them credit
 - As for right now, students may only upload code. Do not edit the repository!
 - Make sure your class name is the same as your .java file (i.e. class CountByTwo_kward60, CountByTwo_kward60.java)
+
+
+# Help
+- To test your code, right-click the file and select "Test File"
+- Note, not all problems have tests
