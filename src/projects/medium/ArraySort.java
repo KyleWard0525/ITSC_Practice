@@ -16,14 +16,12 @@ import java.util.Arrays;
  */
 public class ArraySort {
     
-    public String sort(int[] arr)
+    public int[] sort(int[] arr)
     {
         //YOUR CODE HERE
         
         
-        
-        
-        return Arrays.toString(arr);
+        return arr;
     }
     
     
