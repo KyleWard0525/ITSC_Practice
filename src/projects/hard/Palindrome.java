@@ -5,6 +5,10 @@
  */
 package projects.hard;
 
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+
 /**
  *
  * In this problem you will be given a string as 
