@@ -32,6 +32,9 @@ public class ReadFromFile {
     {
         ArrayList<String> names = new ArrayList<String>();
         
+        //File object provided for you
+        File f = new File(System.getProperty("user.dir") + "/src/projects/names.txt");
+        
         //Your code here
         
         
