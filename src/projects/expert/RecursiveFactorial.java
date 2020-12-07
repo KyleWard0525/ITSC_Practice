@@ -44,7 +44,7 @@ public class RecursiveFactorial {
         passed in is incorrect. Again, think about the nature of 
         factorials and how they're computed. What should you be passing in?
         */
-        return factorial(n);
+        return n * factorial(n);
     }
     
 }
