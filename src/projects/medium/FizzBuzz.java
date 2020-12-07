@@ -32,6 +32,8 @@ package projects.medium;
  * THIS IS ALSO A VERY POPULAR CODING CHALLENGE FOR 
  * TECHNICAL INTERVIEWS
  * 
+ * NOTE: this problem does not have an automated test so you
+ * will have to judge your own success
  * 
  * @author kward60
  */
