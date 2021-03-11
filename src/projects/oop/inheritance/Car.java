@@ -7,6 +7,13 @@ package projects.oop.inheritance;
 
 /**
  * The Car class is a child class of the Vehicle class
+ * 
+ * 1. Complete setGallonsPerTank()
+ * 2. Complete setMpg()
+ * 3. Complete toString()
+ * 
+ * 
+ * 
  * @author kward60
  */
 public class Car extends Vehicle {
@@ -34,6 +41,8 @@ public class Car extends Vehicle {
     {
         super();
         this.model = model;
+        this.year = year;
+        this.numCylinders = numCylinders;
     }
     
     /**
@@ -57,17 +66,22 @@ public class Car extends Vehicle {
         //HINT: What keyword is used to access a parent class?
         
         //Your code here
-  
+        
     }
 
     @Override
     public String toString() {
         
-        //INSERT THE CORRECT VALUES INTO THE PLACES LABELED BELOW
+        /**
+         * INSERT THE CORRECT VALUES INTO THE PLACES LABELED BELOW
+         * While not necessary, I recommend accessing the values through the getter methods
+         * That way you can see how you can access parent class methods as well as fields (public or protected)
+         */
         
-        return "Car { " + " model = " + model + ", year = " + year + ", numCylinders = " + numCylinders + 
+        return "\nCar {" + " model = " + model + ", year = " + year + ", numCylinders = " + numCylinders + 
                 ", gallonsPerTank = " + "INSERT VALUE HERE" + ", mpg = " + "INSERT VALUE HERE" + ", range = " +
-                "INSERT VALUE HERE" + " }";
+                "INSERT VALUE HERE" + "}\n";
+        
     }
     
     
