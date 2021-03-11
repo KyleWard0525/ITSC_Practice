@@ -58,11 +58,11 @@ public class Car extends Vehicle {
     }
     
     /**
-     * Set the value of the Car's gallonsPerTank
+     * Set the value of the Car's mpg
      */
     public void setMpg(double mpg)
     {
-        //Set gallonsPerTank 
+        //Set mpg
         //HINT: What keyword is used to access a parent class?
         
         //Your code here
