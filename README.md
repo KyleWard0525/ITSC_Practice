@@ -1,5 +1,5 @@
-# ITSC1212_Practice
-This repository is for ITSC-1212 students to practice java concepts via practice projects
+# ITSC_Practice
+This repository is for ITSC students to practice java concepts via practice projects
 
 # Rules
 - You may NOT upload any code for class assignments (If you do, you will be reported and banned)
@@ -13,3 +13,4 @@ This repository is for ITSC-1212 students to practice java concepts via practice
 # Help
 - To test your code, right-click the file and select "Test File"
 - Note, not all problems have tests
+- Note, some problem will require you to write your own test harness
